@@ -43,40 +43,114 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+
+    locales: {
+      '/': {
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'Deutsch',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
+        // text for the edit-on-github link
+        editLinkText: 'Diese Seite bearbeiten',
+        // config for Service Worker
+        serviceWorker: {
+          updatePopup: {
+            message: "Eine neue Version ist verfügbar",
+            buttonText: "Neu laden"
+          }
+        },
+        // algolia docsearch options for current locale
+        algolia: {},
+        nav: [
+          {
+            text: 'Guide',
+            link: '/guide/',
+          },
+          {
+            text: 'Einstellungen',
+            link: '/config/'
+          },
+          {
+            text: 'Troubleshooting',
+            link: '/troubleshooting/'
+          }
+        ],
+        sidebar: {
+          '/guide/': [
+            {
+              title: 'Guide',
+              collapsable: false,
+              children: [
+                '',
+                'download-&-install',
+                'einstellungen-und-optionen',
+                'troubleshooting',
+                'schlusswort'
+              ]
+            }
+          ],
+        }
+      },
+
+      '/en/': {
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'English',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
+        // text for the edit-on-github link
+        editLinkText: 'Edit this page',
+        // config for Service Worker
+        serviceWorker: {
+          updatePopup: {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        },
+        // algolia docsearch options for current locale
+        algolia: {},
+        nav: [
+          {
+            text: 'Guide',
+            link: '/guide/',
+          },
+          {
+            text: 'Settings',
+            link: '/config/'
+          },
+          {
+            text: 'Troubleshooting',
+            link: '/troubleshooting/'
+          }
+        ],
+        sidebar: {
+          '/guide/': [
+            {
+              title: 'Guide',
+              collapsable: false,
+              children: [
+                '',
+                'download-&-install',
+                'einstellungen-und-optionen',
+                'troubleshooting',
+                'schlusswort'
+              ]
+            }
+          ],
+        }
+      }
+    },
+
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Einstellungen',
-        link: '/config/'
-      },
-      {
-        text: 'Troubleshooting',
-        link: '/troubleshooting/'
-      }
-    ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'download-&-install',
-            'einstellungen-und-optionen',
-            'troubleshooting',
-            'schlusswort'
-          ]
-        }
-      ],
-    }
+    nav: [],
+    sidebar: {}
   },
 
   /**
