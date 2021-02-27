@@ -146,7 +146,7 @@ module.exports = {
 
     repo: 'https://github.com/SALS-App/Docs',
     editLinks: true,
-    docsDir: '',
+    docsDir: 'src/',
     editLinkText: '',
     lastUpdated: true,
     nav: [],
