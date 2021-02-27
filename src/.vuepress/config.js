@@ -144,11 +144,11 @@ module.exports = {
       }
     },
 
-    repo: '',
-    editLinks: false,
+    repo: 'https://github.com/SALS-App/Docs',
+    editLinks: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [],
     sidebar: {}
   },
