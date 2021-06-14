@@ -1,5 +1,3 @@
 # Download & installation
 
-Wenn man von der [Hauptseite](https://sals-app.com) SALS runterladen möchte, wird man gefragt, für welche Community man diesen runterladen möchte, hier muss man nur auf die eigene Community klicken und dann sollte der Download beginnen. Alternativ gibt es perma-links zu jeder community.
-
-Z.B.: `https://sals-app.com/rosenrudel`
+Bei der Installation von SALS, welches man [hier](https://sals-app.com/) herunterladen kann, wird Windows das Programm zuerst als vermutete Malware flaggen. Diese Warnung muss zur installation des Programms ignoriert werden. Der Speicherort kann wie gewohn im Windows Installer festgelegt werden. Nach der erfolgreichen Installation kann im Programm selbst die Community in welcher man Spielt ausgewählt werden, darüber erhält man Zugang zu den Modsets. 
