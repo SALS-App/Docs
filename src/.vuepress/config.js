@@ -66,19 +66,19 @@ module.exports = {
         nav: [
           {
             text: 'Guide',
-            link: '/guide/',
+            link: '/de/spieler/guide/',
           },
           {
             text: 'Einstellungen',
-            link: '/config/'
+            link: '/de/spieler/config/'
           },
           {
             text: 'Troubleshooting',
-            link: '/troubleshooting/'
+            link: '/de/spieler/troubleshooting/'
           }
         ],
         sidebar: {
-          '/guide/': [
+          '/de/spieler/guide/': [
             {
               title: 'Guide',
               collapsable: false,
