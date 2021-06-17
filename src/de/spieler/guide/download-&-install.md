@@ -6,4 +6,4 @@ Wenn man zum ersten mal SALS installiert sind einige Einstellungen voreingestell
 
 Hier sollte noch geprüft werden, ob SALS die ArmA 3 installation gefunden hat. Wenn nicht wird das Feld **ArmA Pfad** leer sein, dann  einfach den Pfad zum ArmA 3 Spieleordner navigieren und diesen auswählen. 
 
-Als letztes kann mit **Launcher Download Speicherort** noch der Speicherort für die Modsets ausgewählt werden. Da diese mehrere dutzend Gigabyte groß sein können kann es sinnvoll sein diese nicht auf C: zu legen. 
+Als letztes kann mit **Launcher Download Speicherort** noch der Speicherort für die Modsets ausgewählt werden. Da diese mehrere dutzend Gigabyte groß sein können kann es sinnvoll sein sie nicht auf C: zu legen. 
