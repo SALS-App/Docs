@@ -85,7 +85,6 @@ module.exports = {
               children: [
                 '',
                 'download-&-install',
-                'einstellungen-und-optionen',
                 'troubleshooting',
                 'schlusswort'
               ]
@@ -134,7 +133,6 @@ module.exports = {
               children: [
                 '',
                 'download-&-install',
-                'einstellungen-und-optionen',
                 'troubleshooting',
                 'schlusswort'
               ]
