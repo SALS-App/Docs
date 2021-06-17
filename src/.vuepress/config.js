@@ -6,13 +6,13 @@ module.exports = {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
     '/': {
-      lang: 'de-DE', // this will be set as the lang attribute on <html>
-      title: 'SALS Dokumentation & Hilfe',
-      description: ''
-    },
-    '/en/': {
       lang: 'en-US',
       title: 'SALS Documentation & Help',
+      description: ''
+    },
+    '/de/': {
+      lang: 'de-DE', // this will be set as the lang attribute on <html>
+      title: 'SALS Dokumentation & Hilfe',
       description: ''
     }
   },
@@ -46,6 +46,53 @@ module.exports = {
 
     locales: {
       '/': {
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'English',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
+        // text for the edit-on-github link
+        editLinkText: 'Edit this page',
+        // config for Service Worker
+        serviceWorker: {
+          updatePopup: {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        },
+        // algolia docsearch options for current locale
+        algolia: {},
+        nav: [
+          {
+            text: 'Guide',
+            link: '/player/guide/',
+          },
+          {
+            text: 'Settings',
+            link: '/player/config/'
+          },
+          {
+            text: 'Troubleshooting',
+            link: '/player/troubleshooting/'
+          }
+        ],
+        sidebar: {
+          '/player/guide/': [
+            {
+              title: 'Guide',
+              collapsable: false,
+              children: [
+                '',
+                'download-&-install',
+                'troubleshooting',
+                'closing-remarks'
+              ]
+            }
+          ],
+        }
+      },
+      '/de/': {
         // text for the language dropdown
         selectText: 'Languages',
         // label for this locale in the language dropdown
@@ -85,56 +132,6 @@ module.exports = {
               children: [
                 '',
                 'download-&-install',
-                'einstellungen-und-optionen',
-                'troubleshooting',
-                'schlusswort'
-              ]
-            }
-          ],
-        }
-      },
-
-      '/en/': {
-        // text for the language dropdown
-        selectText: 'Languages',
-        // label for this locale in the language dropdown
-        label: 'English',
-        // Aria Label for locale in the dropdown
-        ariaLabel: 'Languages',
-        // text for the edit-on-github link
-        editLinkText: 'Edit this page',
-        // config for Service Worker
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available.",
-            buttonText: "Refresh"
-          }
-        },
-        // algolia docsearch options for current locale
-        algolia: {},
-        nav: [
-          {
-            text: 'Guide',
-            link: '/guide/',
-          },
-          {
-            text: 'Settings',
-            link: '/config/'
-          },
-          {
-            text: 'Troubleshooting',
-            link: '/troubleshooting/'
-          }
-        ],
-        sidebar: {
-          '/guide/': [
-            {
-              title: 'Guide',
-              collapsable: false,
-              children: [
-                '',
-                'download-&-install',
-                'einstellungen-und-optionen',
                 'troubleshooting',
                 'schlusswort'
               ]
