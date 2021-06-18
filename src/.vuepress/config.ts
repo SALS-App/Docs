@@ -1,6 +1,11 @@
-const { description } = require('../../package')
+import { defineUserConfig } from '@vuepress/cli'
+import type { DefaultThemeOptions } from '@vuepress/theme-default'
+import { de, en } from './config/sidebar';
 
-module.exports = {
+const isProd = process.env.NODE_ENV === 'production'
+
+export default defineUserConfig<DefaultThemeOptions>({
+  base: "/",
 
   locales: {
     // The key is the path for the locale to be nested under.
@@ -8,33 +13,39 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'SALS Documentation & Help',
-      description: ''
+      description: 'SALS Documentation and Help'
     },
     '/de/': {
-      lang: 'de-DE', // this will be set as the lang attribute on <html>
+      lang: 'de-DE',
       title: 'SALS Dokumentation & Hilfe',
-      description: ''
+      description: 'SALS Dokumentation und Hilfe'
     }
   },
 
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'SALS Docs',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
 
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: `/images/icons/favicon-16x16.png`,
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: `/images/icons/favicon-32x32.png`,
+      },
+    ],
+    ['meta', { name: 'application-name', content: 'SALS Docs' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'SALS Docs' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#0064fb' }],
+    ['meta', { name: 'theme-color', content: '#0064fb' }],
   ],
 
   /**
@@ -63,7 +74,7 @@ module.exports = {
         },
         // algolia docsearch options for current locale
         algolia: {},
-        nav: [
+        navbar: [
           {
             text: 'Guide',
             link: '/player/guide/',
@@ -77,29 +88,12 @@ module.exports = {
             link: '/player/troubleshooting/'
           }
         ],
-        sidebar: {
-          '/player/guide/': [
-            {
-              title: 'Guide',
-              collapsable: false,
-              children: [
-                '',
-                'download-&-install',
-                'troubleshooting',
-                'closing-remarks'
-              ]
-            }
-          ],
-        }
+        sidebar: en
       },
       '/de/': {
-        // text for the language dropdown
-        selectText: 'Languages',
-        // label for this locale in the language dropdown
-        label: 'Deutsch',
-        // Aria Label for locale in the dropdown
-        ariaLabel: 'Languages',
-        // text for the edit-on-github link
+        selectLanguageName: 'Deutsch',
+        selectLanguageText: 'Deutsch',
+        selectLanguageAriaLabel: 'Deutsch',
         editLinkText: 'Diese Seite bearbeiten',
         // config for Service Worker
         serviceWorker: {
@@ -110,7 +104,7 @@ module.exports = {
         },
         // algolia docsearch options for current locale
         algolia: {},
-        nav: [
+        navbar: [
           {
             text: 'Guide',
             link: '/de/spieler/guide/',
@@ -124,38 +118,14 @@ module.exports = {
             link: '/de/spieler/troubleshooting/'
           }
         ],
-        sidebar: {
-          '/de/spieler/guide/': [
-            {
-              title: 'Guide',
-              collapsable: false,
-              children: [
-                '',
-                'download-&-install',
-                'troubleshooting',
-                'schlusswort'
-              ]
-            }
-          ],
-        }
+        sidebar: de
       }
     },
 
     repo: 'https://github.com/SALS-App/Docs',
     editLinks: true,
+    contributors: false,
     docsDir: 'src/',
-    editLinkText: '',
     lastUpdated: true,
-    nav: [],
-    sidebar: {}
-  },
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    '@vuepress/medium-zoom',
-  ]
-}
+  }
+});

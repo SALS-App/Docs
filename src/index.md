@@ -2,8 +2,10 @@
 home: true
 heroImage: /images/logo.png
 tagline: Launcher und Updater für ArmA 3 Modsets
-actionText: Schnellstart →
-actionLink: /player/guide/
+actions:
+  - text: Schnellstart →
+    link: /player/guide/
+    type: primary
 features:
 - title: Einfaches Interface
   details: Ein simples und elegantes Interface, um den Weg von Launcher Download bis Spielstart zu minimieren. 
