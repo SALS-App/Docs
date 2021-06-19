@@ -1,15 +1,15 @@
 ---
 home: true
 heroImage: /images/logo.png
-tagline: Launcher und Updater für ArmA 3 Modsets
-actionText: Schnellstart →
+tagline: Launcher and Updater for ArmA 3 Modsets
+actionText: Quick Start →
 actionLink: /player/guide/
 features:
-- title: Einfaches Interface
-  details: Ein simples und elegantes Interface, um den Weg von Launcher Download bis Spielstart zu minimieren. 
-- title: Einfaches System
-  details: Das Wechseln zwischen heruntergeladenen Modsets benötigt nur zwei Mausklicks. Nicht benötigte Modsets müssen nicht geladen werden.
-- title: Einfache Administration
-  details: Bei Updates müssen nur Mods heruntergeladen werden, welche geändert wurden. Dies spart Bandbreite und Zeit. 
-footer: Gemacht mit ❤️ in Deutschland
+- title: Simple Interface
+  details: A simple and elegant interface to shorten the time players need to start the game. 
+- title: Simple System
+  details: Switching between two downloaded Modsets only takes a few mouseclicks. 
+- title: Simple Administration
+  details: For updates only mods that had changes need to be downloaded again. 
+footer: Made with ❤️ in Germany
 ---
