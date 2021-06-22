@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 
 SALS is a coustom launcher for ArmA 3. (Simple Arma Launcher and Syncer)
 
