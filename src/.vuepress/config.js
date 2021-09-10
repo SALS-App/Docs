@@ -71,10 +71,6 @@ module.exports = {
           {
             text: 'Settings',
             link: '/player/config/'
-          },
-          {
-            text: 'Troubleshooting',
-            link: '/player/troubleshooting/'
           }
         ],
         sidebar: {
@@ -118,10 +114,6 @@ module.exports = {
           {
             text: 'Einstellungen',
             link: '/de/spieler/config/'
-          },
-          {
-            text: 'Troubleshooting',
-            link: '/de/spieler/troubleshooting/'
           }
         ],
         sidebar: {
