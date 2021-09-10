@@ -6,7 +6,7 @@ lang: en-EN
 
 # Launcher Settings
 
-![](/images/de/launcher/settings_1_0_0_beta.png)
+![](/images/en/launcher/settings_1_1_1.png)
 
 ## ArmA Path
 The folder, where ArmA3 is installed. If the default installation destination is not changed and Steam has been detected, the Path is probably already filled. If the field is empty, you can just choose the folder, where ArmA3 is installed.
@@ -36,7 +36,7 @@ Shows Advanced Options.
 
 # Advanced ArmA Parameters
 
-![](/images/de/launcher/settings_advanced_1_0_0_beta.png)
+![](/images/en/launcher/settings_advanced_1_1_1.png)
 
 ## No Pause
 The game is going to be still running, even when the game is not in focus. E.g. when the game is minimized. 
