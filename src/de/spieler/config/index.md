@@ -16,10 +16,6 @@ Dies ist der Order, in dem sich die ArmA Installation befindet. Wurde der Instal
 Hier werden alle Dateien gespeichert, welche der Launcher herunterladen soll. Diese können, je nach Community, größer oder kleiner seien. Die Gesamtgröße wird angezeigt, wenn ihr mit dem Runterladen beginnt.
 
 
-
-
-
-
 # ArmA Parameter
 Parameter, die für ArmA zur Verfügung stehen.
 
@@ -39,15 +35,6 @@ Hier werden alle ArmA-Profile, die auf dem Computer sind angezeigt. Das ausgewä
 Zeigt die erweiterten Einstellungen an.
 
 
-
-
-
-
-:::warning Warnung
-Die folgenden Optionen sollten nur von erfahrenen Nutzern verändert werden.
-:::
-
-
 # Erweitere ArmA Parameter
 
 ![](/images/de/launcher/settings_advanced_1_0_0_beta.png)
@@ -63,6 +50,7 @@ Zeigt Skript Errors einer Mission im laufenden Spiel. Jedoch werden im Eden Edit
 
 ## Windowed
 Diese Option überschreibt die benutzerdefinierte Bildschirmeinstellung (In ArmA) und erzwingt, so lange diese Option an ist, einen Spielstart im Fenstermodus. ([Bohemia Interactive Wiki](https://community.bistudio.com/wiki/Arma_3_Startup_Parameters#Display_Options))
+
 
 # Erweiterte Launcher Einstellungen
 
@@ -87,6 +75,7 @@ Hier kann man die Sprache von SALS ändern. Falls man Fehler findet, und dieses 
 ## Community
 Hier kann man die derzeitige Community ändern, oder eine neue Hinzufügen. Communities kann man auch über Links auswählen, wie z.B. `sals://community.1`
 
+
 # Weitere Optionen
 
 ## Cache Leeren
@@ -94,11 +83,6 @@ Leert den Internen ArmA Mod Cache des Launchers und startet den Launcher neu.
 
 ## Config löschen
 Löscht die Konfigurationsdatei des Launcher und startet den Launcher neu.
-
-
-
-
-
 
 
 # Experten Einstellungen
