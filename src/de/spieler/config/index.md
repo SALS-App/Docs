@@ -5,7 +5,7 @@ lang: de-DE
 
 
 # Launcher Einstellungen
-Der Launcher hat in der aktuellen Version (1.0.0) noch nicht über seinen vollen Umfang an möglichen Einstellung. Falls Wünsche diesbezüglich vorhanden sind, gibt es die Möglichkeit eines Feature Requests unter "[Issues](https://github.com/SALS-APP/sals/issues)"
+Der Launcher hat in der aktuellen Version (1.1.1) noch nicht über seinen vollen Umfang an möglichen Einstellung. Falls Wünsche diesbezüglich vorhanden sind, gibt es die Möglichkeit eines Feature Requests unter "[Issues](https://github.com/SALS-APP/sals/issues)"
 
 ![](/images/de/launcher/settings_1_0_0_beta.png)
 
@@ -71,6 +71,21 @@ Startet ArmA automatisch nach dem herunterladen des Modsets oder Updates.
 
 ## Automatisch mit Server verbinden `Empfohlen`
 Verbindet nach dem Start von ArmA direkt auf den Server der Community (Der Server wird vom Technischen Administrator der Community gesetzten). Diese Option funktioniert nur, wenn ArmA Auto-Start aktiv ist.
+
+## Performance Modsets benutzen `Empfohlen`
+Wenn es von der Community eine Performance version des Modsets bereit gestellt wurde, wird dieses anstatt des normalen verwendet.
+Im "Modset ändern" dialog wird zusätzlich ein Indikator angezeigt, ob das jeweilige Modset eine Performance version hat.
+
+## DLC Kompatibilität Mods benutzen `Empfohlen`
+Für Modsets mit DLC's, wie S.O.G. oder Global Mobilization werden, insofern von der Community bereit gestellt, werden
+Kompatibilitäts Mods mit heruntergeladen. So kann man auf den DLC Karten spielen, auch wenn man das DLC nicht gekauft hat.
+Wenn man ein DLC schon gekauft hat, wird für dieses natürlich nichts extra runtergeladen.
+
+## Sprache
+Hier kann man die Sprache von SALS ändern. Falls man Fehler findet, und dieses Melden oder verbessern möchte, kann man dies [hier](https://github.com/SALS-APP/Translations) machen.
+
+## Community
+Hier kann man die derzeitige Community ändern, oder eine neue Hinzufügen. Communities kann man auch über Links auswählen, wie z.B. `sals://community.1`
 
 # Weitere Optionen
 
