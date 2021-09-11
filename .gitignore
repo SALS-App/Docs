@@ -1,3 +1,6 @@
+src/.vuepress/.temp/
+src/.vuepress/.cache/
+src/.vuepress/dist/
 pids
 logs
 node_modules

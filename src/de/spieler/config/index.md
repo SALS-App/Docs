@@ -107,4 +107,4 @@ Der Slug ist IMMER das letzte Element des Pfades und sollte IMMER vorhanden sein
 
 
 ---
-<tiny>"#Greenbarwatching" - Svensson 2k19</tiny>
+"#Greenbarwatching" - Svensson 2k19
