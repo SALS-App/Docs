@@ -1,8 +1,7 @@
 import { defineUserConfig } from "@vuepress/cli";
-import { DefaultThemeOptions } from "@vuepress/theme-default"
-import { navbar, sidebar } from "./configs";
+import { DefaultThemeOptions } from "@vuepress/theme-default";
 
-const { description } = require('../../package')
+import { navbar, sidebar } from "./configs";
 
 export default defineUserConfig<DefaultThemeOptions>({
 
@@ -28,6 +27,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   },
 
   themeConfig: {
+    repo: 'https://github.com/SALS-App/Docs',
+    docsDir: 'src',
+    editLinks: true,
+    contributors: false,
+    lastUpdated: true,
 
     locales: {
       '/': {
@@ -56,16 +60,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         navbar: navbar.de,
         sidebar: sidebar.de
       }
-    },
-
-    repo: 'https://github.com/SALS-App/Docs',
-    editLinks: true,
-    docsDir: 'src/',
-    editLinkText: '',
-    contributors: false,
-    lastUpdated: true,
-    nav: [],
-    sidebar: {}
+    }
   },
   plugins: []
 });
