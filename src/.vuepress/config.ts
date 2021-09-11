@@ -29,6 +29,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     repo: 'https://github.com/SALS-App/Docs',
     docsDir: 'src',
+    docsBranch: 'master',
     editLinks: true,
     contributors: false,
     lastUpdated: true,
