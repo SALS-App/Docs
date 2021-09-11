@@ -5,6 +5,7 @@ export const de: SidebarConfig = {
         {
             text: 'Guide',
             children: [
+                '/de/spieler/guide/index.md',
                 '/de/spieler/guide/download-&-install.md',
                 '/de/spieler/guide/troubleshooting.md',
                 '/de/spieler/guide/schlusswort.md'

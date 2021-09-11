@@ -5,10 +5,10 @@ export const en: SidebarConfig = {
         {
             text: 'Guide',
             children: [
-                '',
-                'download-&-install.md',
-                'troubleshooting.md',
-                'closing-remarks.md'
+                '/player/guide/index.md',
+                '/player/guide/download-&-install.md',
+                '/player/guide/troubleshooting.md',
+                '/player/guide/closing-remarks.md'
             ]
         }
     ],
