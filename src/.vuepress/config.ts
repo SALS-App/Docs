@@ -17,12 +17,12 @@ export default defineUserConfig<DefaultThemeOptions>({
     '/': {
       lang: 'en-US',
       title: 'SALS Documentation & Help',
-      description: ''
+      description: 'ArmA Modset Syncer and Launcher'
     },
     '/de/': {
       lang: 'de-DE',
       title: 'SALS Dokumentation & Hilfe',
-      description: ''
+      description: 'ArmA Modset Syncer und Launcher'
     }
   },
 
