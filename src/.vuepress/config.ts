@@ -13,6 +13,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+  shouldPrefetch: true,
+
   locales: {
     '/': {
       lang: 'en-US',
