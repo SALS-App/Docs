@@ -64,13 +64,10 @@ If the Community provides a Performance version of a given Modset, SALS is going
 In the "Change Modset" dialog are additional indicators whether a Modset has a Performance version.
 
 ## Use DLC Compatibility Mods `Recommended`
-Für Modsets mit DLC's, wie S.O.G. oder Global Mobilization werden, insofern von der Community bereit gestellt, werden
-Kompatibilitäts Mods mit heruntergeladen. So kann man auf den DLC Karten spielen, auch wenn man das DLC nicht gekauft hat.
-Wenn man ein DLC schon gekauft hat, wird für dieses natürlich nichts extra runtergeladen.
-For Modsets with DLCs, e.g. S.O.G. or Global Mobilization, SALS is going to download 
+For Modsets with DLCs, e.g. S.O.G. or Global Mobilization, SALS is going to download Compatibility Mods for the given DLCs. That way you can use most of the Content in the DLC, like Weapons or Vehicles. If you already purchased a DLC, SALS is not going to download the Compatibility Mods for that.
 
 ## Community
-Hier kann man die derzeitige Community ändern, oder eine neue Hinzufügen. Communities kann man auch über Links auswählen, wie z.B. `sals://community.1`
+Here you can change the current Community, or Add a new one. Communities can also be accessed via a URL, e.g.: `sals://community.1`
 
 ## Language
 Here you can change the current Language of SALS. If you find mistakes, etc. you can report or improve it [here](https://github.com/SALS-APP/Translations).
@@ -87,7 +84,7 @@ Deleted the Config file and restarts the Launcher.
 
 # Expert Settings
 :::danger Warning
-Die following options should only be changed by experienced Players. Aka - Be sure what you are doing.
+The following options should only be changed by experienced Players. Aka - Be sure what you are doing.
 :::
 
 ### Change Download Path Slug
