@@ -61,13 +61,12 @@ Startet ArmA automatisch nach dem herunterladen des Modsets oder Updates.
 Verbindet nach dem Start von ArmA direkt auf den Server der Community (Der Server wird vom Technischen Administrator der Community gesetzten). Diese Option funktioniert nur, wenn ArmA Auto-Start aktiv ist.
 
 ## Performance Modsets benutzen `Empfohlen`
-Wenn es von der Community eine Performance version des Modsets bereit gestellt wurde, wird dieses anstatt des normalen verwendet.
+Wenn von der Community eine Performance version eines Modsets bereit gestellt wurde, wird dieses anstatt des normalen verwendet.
 Im "Modset ändern" dialog wird zusätzlich ein Indikator angezeigt, ob das jeweilige Modset eine Performance version hat.
 
 ## DLC Kompatibilität Mods benutzen `Empfohlen`
-Für Modsets mit DLC's, wie S.O.G. oder Global Mobilization werden, insofern von der Community bereit gestellt, werden
-Kompatibilitäts Mods mit heruntergeladen. So kann man auf den DLC Karten spielen, auch wenn man das DLC nicht gekauft hat.
-Wenn man ein DLC schon gekauft hat, wird für dieses natürlich nichts extra runtergeladen.
+Für Modsets mit DLCs, wie S.O.G. oder Global Mobilization werden - insofern von der Community bereit gestellt - Kompatibilität Mods mit heruntergeladen. Auf diese Weise kann man viele Inhalte der DLCs, wie Waffen, oder Fahrzeuge nutzen, auch wenn man sie nicht gekauft hat.
+Wenn man ein DLC schon gekauft hat, wird für dieses natürlich nichts extra heruntergeladen.
 
 ## Sprache
 Hier kann man die Sprache von SALS ändern. Falls man Fehler findet, und dieses Melden oder verbessern möchte, kann man dies [hier](https://github.com/SALS-APP/Translations) machen.
