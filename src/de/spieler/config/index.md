@@ -80,6 +80,11 @@ Hier kann man die derzeitige Community ändern, oder eine neue Hinzufügen. Comm
 ## Cache Leeren
 Leert den Internen ArmA Mod Cache des Launchers und startet den Launcher neu.
 
+## Extra Parameter
+Öffnet ein Fenster, wo weitere Parameter angegeben werden können. Beispiel: `-maxMem=8192 -window`
+<br>
+Diese Parameter werden nach den meisten von SALS gesetzten Parametern ausgeführt, jedoch vor den Verbindungsparametern, falls `Automatisch mit Server verbinden` an ist.
+
 ## Config löschen
 Löscht die Konfigurationsdatei des Launcher und startet den Launcher neu.
 
