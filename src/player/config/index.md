@@ -80,6 +80,7 @@ Clears the internal ArmA Mod and Image Cache of the Launcher and restarts it.
 
 ## Extra Parameters
 Opens a Modal, where extra Parameters can be given. Example: `-maxMem=8192 -window`
+<br>
 These Parameters are executed after most of the SALS Parameters, but before the Connect Parameters if `Automatically Connect to Server` is enabled.
 
 ## Delete Config
