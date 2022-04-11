@@ -78,6 +78,10 @@ Here you can change the current Language of SALS. If you find mistakes, etc. you
 ## Clear Cache
 Clears the internal ArmA Mod and Image Cache of the Launcher and restarts it.
 
+## Extra Parameters
+Opens a Modal, where extra Parameters can be given. Example: `-maxMem=8192 -window`
+These Parameters are executed after most of the SALS Parameters, but before the Connect Parameters if `Automatically Connect to Server` is enabled.
+
 ## Delete Config
 Deleted the Config file and restarts the Launcher.
 
