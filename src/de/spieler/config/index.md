@@ -7,7 +7,7 @@ lang: de-DE
 # Launcher Einstellungen
 Der Launcher hat in der aktuellen Version (1.1.1) noch nicht über seinen vollen Umfang an möglichen Einstellung. Falls Wünsche diesbezüglich vorhanden sind, gibt es die Möglichkeit eines Feature Requests unter "[Issues](https://github.com/SALS-APP/sals/issues)"
 
-![](/images/de/launcher/settings_1_1_1.png)
+![](/images/de/launcher/settings_1_2_1.png)
 
 ## ArmA Pfad
 Dies ist der Order, in dem sich die ArmA Installation befindet. Wurde der Installationsort von ArmA nicht in Steam geändert, wird dieser Pfad automatisch eingefügt. Wenn das Feld leer ist, wählt einfach euren benutzerdefinierten Ordner aus.
@@ -37,7 +37,7 @@ Zeigt die erweiterten Einstellungen an.
 
 # Erweitere ArmA Parameter
 
-![](/images/de/launcher/settings_advanced_1_1_1.png)
+![](/images/de/launcher/settings_advanced_1_2_1.png)
 
 ## Keine Pause
 Lässt das Spiel weiterlaufen, auch wenn es beim Benutzer nicht im Fokus ist. Hiermit läuft das Spiel auch weiter, wenn es zum Beispiel im Hintergrund ist.
