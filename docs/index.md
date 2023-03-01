@@ -6,15 +6,18 @@ hero:
   text: Documentation
   tagline: Simple Arma Launcher and Syncer
   image:
-    src: /logo.png
+    src: /images/logo.png
     alt: SALS
   actions:
     - theme: brand
       text: Quick Start
       link: /player/guide/
     - theme: alt
-      text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      text: Downloads
+      link: https://sals-app.com/
+    - theme: alt
+      text: Issue tracker
+      link: https://github.com/SALS-App/SALS/issues
 
 features:
   - title: Simple Interface 
