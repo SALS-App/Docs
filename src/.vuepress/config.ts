@@ -1,10 +1,13 @@
 import { defineUserConfig } from "@vuepress/cli";
 import { defaultTheme } from "@vuepress/theme-default";
 import { searchPlugin } from '@vuepress/plugin-search';
+import { viteBundler } from '@vuepress/bundler-vite'
 
 import { navbar, sidebar } from "./configs";
 
 export default defineUserConfig({
+  bundler: viteBundler(),
+
   base: '/',
   shouldPrefetch: true,
 
